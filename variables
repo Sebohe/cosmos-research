@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+export address='cosmosaccaddr15wkl5rq6uk8qdnpehdkp7clng255e06z2p9lfk'
+export node='cosmosvalpub1zcjduepqy3v8k3lmu9q5l5jm3h8r69c9knef6zr6xzyc4jzgp9l90eh0m40stjefm3'
+export moniker='Hallothpen'
+export chain='gaia-7004'
+export key_name='akaedian'
