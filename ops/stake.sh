@@ -13,5 +13,6 @@ gaiacli stake create-validator \
     --pubkey=$node \
     --address-validator=$address \
     --chain-id=$chain \
-    --from=$key_name
+    --from=$key_name \
+    --moniker $moniker
 
