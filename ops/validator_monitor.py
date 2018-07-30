@@ -1,5 +1,4 @@
 # -*- coding: utf8 -*-
-
 # monitor validator's commit activity & alert by telegram message
 # by dlguddus(B-Harvest)
 
@@ -10,14 +9,8 @@ import os
 import threading
 import sys
 import datetime
-from flask import Flask
-from flask import Markup
-from flask import Flask
-from flask import render_template
 
 validator_address = "" # put your validator hex address here
-telegram_token = "" # put your telegram bot token here
-telegram_chat_id = "" # put your telegram chat_id here
 node_IP_port = [] # put your node's IP:port(26657) for getting node info
 
 height_before = -1
@@ -26,23 +19,6 @@ validator_height = 0
 validator_timestamp = ""
 count = 0
 n_peers = []
-
-app = Flask(__name__)
-@app.route("/")
-
-def flask_view():
-
-    if height - validator_height <= 3:
-        commit_status = "OK"
-    else:
-        commit_status = "Missing!"
-
-    reternscript = '<meta http-equiv="refresh" content="5">'
-    reternscript = reternscript + 'height : ' + str(height) + '</br>validator height : ' + str(validator_height) + '</br>'
-    reternscript = reternscript + 'commit status : ' + str(commit_status) + '</br>'
-    for i in range(0,len(n_peers)):
-         reternscript = reternscript + 'n_peers(' + str(i) +') : ' + str(n_peers[i]) + '</br>'
-    return reternscript
 
 def get_data():
 
@@ -117,3 +93,6 @@ def get_data():
             response = requests.get(requestURL, timeout=10)
 
         time.sleep(1)
+
+if __name__ == '__main__':
+    get_data()
