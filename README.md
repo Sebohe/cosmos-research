@@ -13,5 +13,8 @@
  * [Tendermint with Rust](https://blog.cosmos.network/tendermint-supports-rust-c5836d92afc9)
  * [Cosmos github docs](https://github.com/cosmos/cosmos-sdk/tree/d2f70ec8af58581563f86bab5301f4d344d1c195/docs)
 
+### IBC stuff
 
+ * [Peggy article](https://blog.cosmos.network/the-internet-of-blockchains-how-cosmos-does-interoperability-starting-with-the-ethereum-peg-zone-8744d4d2bc3f)
+ * [Peggy repo](https://github.com/cosmos/peggy)
 
