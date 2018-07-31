@@ -5,7 +5,6 @@
  * [https://status.certus.one/](https://status.certus.one/)
  * [Cosmos explorer](https://explorecosmos.network/)
  * [Our current validator](https://figment.network/cosmos/hubble/gaia-7004/validators/E7A30077D5D11867D3EAF99ED45BFDC1EB834509)
- * 
 
 ### Tutorials/Docs
 
