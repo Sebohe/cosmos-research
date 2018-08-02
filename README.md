@@ -1,5 +1,10 @@
 ## Useful links
 
+### Cosmos
+
+  * [Value of Cosmos](https://blog.cosmos.network/understanding-the-value-proposition-of-cosmos-ecaef63350d)
+
+
 ### Node/validator status
 
  * [https://status.certus.one/](https://status.certus.one/)
@@ -17,4 +22,7 @@
 
  * [Peggy article](https://blog.cosmos.network/the-internet-of-blockchains-how-cosmos-does-interoperability-starting-with-the-ethereum-peg-zone-8744d4d2bc3f)
  * [Peggy repo](https://github.com/cosmos/peggy)
+ * [General overview of ethermint and other IBC chains](https://blog.cosmos.network/understanding-the-value-proposition-of-cosmos-ecaef63350d)
+
+
 
