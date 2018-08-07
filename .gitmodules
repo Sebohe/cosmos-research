@@ -1,3 +1,0 @@
-[submodule "testnets-repo"]
-	path = testnets
-	url = https://github.com/cosmos/testnets
