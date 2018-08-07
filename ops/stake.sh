@@ -13,4 +13,3 @@ gaiacli stake create-validator \
     --chain-id=$chain \
     --from=$key_name \
     --moniker $moniker
-
