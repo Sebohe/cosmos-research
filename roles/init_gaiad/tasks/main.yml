@@ -19,3 +19,10 @@
     regexp: "^seeds = "
     line: "seeds = \"{{ seeds }}\""
     state: present
+
+- name: Adds moniker
+  lineinfile:
+    dest: ~/.gaiad/config/config.toml
+    regexp: "^moniker = "
+    line: "moniker = \"{{ moniker }}\""
+    state: present
