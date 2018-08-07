@@ -1,0 +1,21 @@
+---
+- name: Clones tesnet repo
+  git:
+    repo: https://github.com/cosmos/testnets
+    dest: ~/testnets
+
+- name: Runs gaiad
+  command: gaiad init
+  ignore_errors: yes
+
+- name: Configures genesis file
+  copy:
+    src: ~/testnets/{{chain}}/genesis.json
+    dest: ~/.gaiad/config/genesis.json
+
+- name: Adds seeds to config
+  lineinfile:
+    dest: ~/.gaiad/config/config.toml
+    regexp: "^seeds = "
+    line: "seeds = \"{{ seeds }}\""
+    state: present

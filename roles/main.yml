@@ -1,0 +1,14 @@
+---
+- name: Clones tesnet repo
+  git:
+    repo: https://github.com/cosmos/testnets
+    dest: ~/testnets
+
+- name: Runs gaiad
+  command: gaiad init
+
+- name: Configures genesis file
+  file:
+    path: ~/tesnets/{{chain}}/genesis.json
+    dest: ~/.gaiad/config/genesis.json
+    state: link
