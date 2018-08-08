@@ -23,8 +23,7 @@ echo key_name: $key_name
 echo chain-id: $chain
 echo moniker: $moniker
 echo node_address: $node
-echo
-echo
+echo '\n\n'
 
 gaiacli stake create-validator \
     --amount=$stake \
