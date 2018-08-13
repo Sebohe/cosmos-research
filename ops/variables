@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-export address='cosmosaccaddr15wkl5rq6uk8qdnpehdkp7clng255e06z2p9lfk'
-export moniker='Hallothpen'
-export key_name='akaedian'
-
-
-export chain='gaia-7005'
-export node='cosmosvalpub1zcjduepqy3v8k3lmu9q5l5jm3h8r69c9knef6zr6xzyc4jzgp9l90eh0m40stjefm3'
-export seeds='10037c5be73bcfaff7b861855ac546d56efedda6@209.97.181.31:26656,1e3ffe7e512f06f0e24454ce0c17a3a3f7e5c0ee@54.39.85.119:26656,d443b4a86200d33dde9deacb1b1f73a3b3795c20@35.233.206.47:26656,e4e20e7d2e5ca67b5f5f264e20dc1d94ea77945c@5.135.2.82:26656,b6034b042c3f70961f1147c2f339507a5f107be5@35.177.97.33:26656'
